@@ -1,0 +1,15 @@
+//Qr code
+pip install qrcode
+import qrcode as qr
+objectname = qr.make("Url Name")
+objectname.save("saveName")
+
+//convert python file to exe
+pyinstaller --onefile filename.py # convert into single exe file
+
+//
+pip install auto-py-to-exe	#gui to convert py to exe
+
+//Skype Automate
+pip install skpy
+form skpy import Skype
